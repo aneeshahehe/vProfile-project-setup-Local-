@@ -41,7 +41,7 @@ Workflow and configurations of architecture :
 * Nginx : It's  web service which is used to create a load balancing experience. Upon receiving the request, it routes the request to Tomcat server.
 * Tomcat : It's a Java web application service which is used to host web applications written in Java by developers.
 * NFS : Shared external storage
-* MtSQL DB : Login details of the user are stored here.
+* MySQL DB : Login details of the user are stored here.
 * Rabbit MQ : Message broker or also called a Queuing agent to connect to applications together.
 * Mem cache : A database caching service, connected with MySQL server.
   
