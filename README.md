@@ -29,11 +29,11 @@ Architectural Design for various services in our stack:
 
 The word 'stack' is used for collection of servicesworking together to create an experience.
 ## Services to be deployed
-* MySQL/MariaDB
-* Memcached
-* RabbitMQ
-* Tomcat
-* Nginx
+* MySQL/MariaDB - SQL Database
+* Memcache - DB Caching
+* RabbitMQ - Broker/Queuing Agent
+* Tomcat - Application Server
+* Nginx - Web Service
 
 Workflow and configurations of architecture :
 * The user enters an IP address (not a URL) on a web browser.
